@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="SendEmailSuite" verbose="1">
+
+    <test name="LoginMail">
+        <classes>
+            <class name="com.packt.tests.Login" />
+        </classes>
+
+    </test>
+    <test name="ComposeMail">
+        <classes>
+            <class name="com.packt.tests.Mail" />
+        </classes>
+
+    </test>
+
+</suite>
